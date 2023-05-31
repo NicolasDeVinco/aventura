@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+
+    <div class="slider">
+        <div class="slide slide1 active">
+          <div class="slide-content">
+            <h2>Esta no será la página más linda del mundo ni la que transmita <br>de igual manera todo lo que siento y pienso.</h2>
+          </div>
+        </div>
+        <div class="slide slide2">
+          <div class="slide-content">
+            <h2>Pero si es la forma más loca que jamás se me ocurrió.</h2>
+          </div>
+        </div>
+      </div>
+
+
+
+    <div class="primer__container">
+    <div class="container">
+        <div class="square">
+          <p>Siendo honesto, me costó</p>
+        </div>
+        <div class="square">
+          <p>Cómo todo cambio me imagino. Cuesta y no es fácil de entrada</p>
+        </div>
+        <div class="square">
+          <p>Pero solo te puedo decir que ahora lo veo de otra forma</p>
+        </div>
+        <div class="square">
+          <p>Cambié. O mejor dicho, cambió mi mentalidad</p>
+        </div>
+        <div class="square">
+          <p>Me cambió el chip o la forma de pensar y de ver todo esto que tenemos</p>
+        </div>
+        <div class="square">
+          <p>Donde lo único que importa es amarnos, hacer feliz al otro y acompañarnos</p>
+        </div>
+      </div>
+      
+        <img src="../images/caralu.jpeg" alt="Foto" class="image">
+        <p class="image__p">Tenés que posicionarte arriba de los cuadraditos!!<br> De izquierda a derecha</p>
+   
+    </div>
+
+
+    <div class="my-slider">
+        <div class="my-slide my-slide1 active">
+          <div class="my-slide-content">
+            <img src="../images/plane.png"><img class="avion" src="../images/plane.png"><h2>Despeguemos juntos a esta</h2><img class="avion" src="../images/plane.png"><img src="../images/plane.png">
+          </div>
+        </div>
+        <div class="my-slide my-slide2">
+          <div class="my-slide-content">
+            <img src="../images/heart.png"><img class="corazon" src="../images/heart.png"><h2>SIN - AVENTURA</h2><img class="corazon" src="../images/heart.png"><img src="../images/heart.png">
+          </div>
+        </div>
+      </div>
+
+    <div class="container__faqs">
+        <div class="question">
+          <h3 id="rojo">SIN <span class="arrow">&#9660;</span></h3>
+          <div class="answer">
+            <p>Ser novios / pareja</p>
+          </div>
+        </div>
+        <div class="question">
+          <h3 id="rojo">SIN <span class="arrow">&#9660;</span></h3>
+          <div class="answer">
+            <p>Convivencia</p>
+          </div>
+        </div>
+        <div class="question">
+          <h3 id="rojo">SIN<span class="arrow">&#9660;</span></h3>
+          <div class="answer">
+            <p>Vernos todos los días</p>
+          </div>
+        </div>
+        <div class="question">
+          <h3 id="rojo">SIN<span class="arrow">&#9660;</span></h3>
+          <div class="answer">
+            <p>Hablarnos todos los días</p>
+          </div>
+        </div>
+        <div class="question">
+          <h3 id="verde">SIN<span class="arrow">&#9660;</span></h3>
+          <div class="answer">
+            <p>DEJAR DE AMARNOS Y DE ACOMPAÑARNOS EN CADA PASO</p>
+          </div>
+        </div>
+      </div>
+
+
+
+<div class="select__container">
+    <h2>QUIERO ACOMPAÑARTE A:</h2>
+      <select id="mySelect" onchange="showSelectedOption()">
+        <option value="0">Elegí una opcion</option>
+        <option value="1">Ser libre</option>
+        <option value="2">Ser lo más libre que puedas</option>
+        <option value="3">Ser feliz</option>
+        <option value="4">Progresar</option>
+        <option value="5">Tropezarte</option>
+        <option value="6">Levantarte</option>
+      </select>
+      
+      <div id="result"></div>
+
+</div>
+
+<div class="slider-container">
+    <div class="slide-item active purple">
+      <h1>ME ACOMPAÑAS EN ESTA:</h1>
+    </div>
+    <div class="slide-item blue">
+      <h1>NUEVA</h1>
+    </div>
+    <div class="slide-item green">
+      <h1>LOCA</h1>
+    </div>
+    <div class="slide-item orange">
+      <h1>NUNCA VISTA</h1>
+    </div>
+    <div class="slide-item pink">
+      <h1>AVENTURA DE AMOR Y COMPAÑIA</h1>
+    </div>
+  </div>
+          
+<div class="aventura__container">  
+    <div class="button-row">
+      <button id="aventura" class="button" onclick="redirigir()">Sí, te acompaño<img class="corazon__aventura" src="../images/heart.png"></button>
+      <button  id="noButton" class="button">No, gracia igualmente</button>
+    </div>
+  </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script src="../funciones.js"></script>
+</body>
+</html>
+
+
